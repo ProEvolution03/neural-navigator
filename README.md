@@ -16,10 +16,11 @@ A Multi-Modal Neural Network acting as a "Smart GPS." This model fuses Computer 
 # 🚀 Quick Start
 
 ## 1. Github Cloning
-Clone the github repo that contains the datasets into your workspace.
+Clone the following github repositories into your workspace folder.
 
 ```Bash
 git clone https://github.com/AiSaurabhPatil/assignment_dataset.git
+git clone https://github.com/ProEvolution03/ros-neural-navigator.git
 ```
 
 ## 2. Installation
