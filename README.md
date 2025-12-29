@@ -13,7 +13,7 @@ A Multi-Modal Neural Network acting as a "Smart GPS." This model fuses Computer 
 └── navigator_model.pth # Saved model weights (generated after training)
 ```
 
-#🚀 Quick Start
+# 🚀 Quick Start
 
 ## 1. Github Cloning
 Clone the github repo that contains the datasets into your workspace.
