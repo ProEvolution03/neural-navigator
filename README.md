@@ -10,8 +10,12 @@ A Multi-Modal Neural Network acting as a "Smart GPS." This model fuses Computer 
 ├── train.py            # Training loop with MSE Loss and Adam Optimizer
 ├── predict.py          # Inference script to visualize predicted paths
 ├── requirements.txt    # Dependencies
+├── assignment_dataset  # Folder that contains the datasets to be trained 
+  ├── data
+  └── test_data
 └── navigator_model.pth # Saved model weights (generated after training)
 ```
+Make sure to have this folder structure.
 
 # 🚀 Quick Start
 
