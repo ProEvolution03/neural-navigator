@@ -18,7 +18,6 @@ def predict(idx=0):
     with torch.no_grad():
         path = model(image.unsqueeze(0), text.unsqueeze(0))
     
-    # Visualization
     path = path.squeeze().numpy() * 128.0
     img = (image.permute(1, 2, 0).numpy() * 255).astype(np.uint8).copy()
     
@@ -34,4 +33,5 @@ def predict(idx=0):
     print(f"Result saved to result_{idx}.png")
 
 if __name__ == "__main__":
+
     predict(0) # Change index to test different images
